@@ -8,6 +8,7 @@
         nim = pkgs.callPackage ./nim/shell.nix {};
         common-lisp = pkgs.callPackage ./common-lisp/shell.nix {};
         clojure = pkgs.callPackage ./clojure/shell.nix {};
+        csharp = pkgs.callPackage ./csharp/shell.nix {};
       };
     };
 }
