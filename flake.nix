@@ -9,6 +9,7 @@
         common-lisp = pkgs.callPackage ./common-lisp/shell.nix {};
         clojure = pkgs.callPackage ./clojure/shell.nix {};
         csharp = pkgs.callPackage ./csharp/shell.nix {};
+        cpp = pkgs.callPackage ./cpp/shell.nix {};
       };
     };
 }
