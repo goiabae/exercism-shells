@@ -13,6 +13,7 @@
         java = pkgs.callPackage ./java/shell.nix {};
         python = pkgs.callPackage ./python/shell.nix {};
         javascript = pkgs.callPackage ./javascript/shell.nix {};
+        ocaml = pkgs.callPackage ./ocaml/shell.nix {};
       };
     };
 }
