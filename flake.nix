@@ -12,6 +12,7 @@
         cpp = pkgs.callPackage ./cpp/shell.nix {};
         java = pkgs.callPackage ./java/shell.nix {};
         python = pkgs.callPackage ./python/shell.nix {};
+        javascript = pkgs.callPackage ./javascript/shell.nix {};
       };
     };
 }
