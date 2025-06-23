@@ -15,6 +15,7 @@
         python = pkgs.callPackage ./python/shell.nix {};
         javascript = pkgs.callPackage ./javascript/shell.nix {};
         ocaml = pkgs.callPackage ./ocaml/shell.nix {};
+        zig = pkgs.callPackage ./zig/shell.nix {};
       };
     };
 }
