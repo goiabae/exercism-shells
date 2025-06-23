@@ -10,6 +10,7 @@
         clojure = pkgs.callPackage ./clojure/shell.nix {};
         csharp = pkgs.callPackage ./csharp/shell.nix {};
         cpp = pkgs.callPackage ./cpp/shell.nix {};
+        c = pkgs.callPackage ./c/shell.nix {};
         java = pkgs.callPackage ./java/shell.nix {};
         python = pkgs.callPackage ./python/shell.nix {};
         javascript = pkgs.callPackage ./javascript/shell.nix {};
