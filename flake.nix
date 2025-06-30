@@ -13,6 +13,7 @@
         cpp = pkgs.callPackage ./cpp/shell.nix {};
         c = pkgs.callPackage ./c/shell.nix {};
         java = pkgs.callPackage ./java/shell.nix {};
+        lua = pkgs.callPackage ./lua/shell.nix {};
         python = pkgs.callPackage ./python/shell.nix {};
         javascript = pkgs.callPackage ./javascript/shell.nix {};
         ocaml = pkgs.callPackage ./ocaml/shell.nix {};
