@@ -16,6 +16,7 @@
         javascript = pkgs.callPackage ./javascript/shell.nix {};
         ocaml = pkgs.callPackage ./ocaml/shell.nix {};
         zig = pkgs.callPackage ./zig/shell.nix {};
+        perl5 = pkgs.callPackage ./perl5/shell.nix {};
       };
     };
 }
