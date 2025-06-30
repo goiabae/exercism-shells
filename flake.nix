@@ -19,6 +19,7 @@
         ocaml = pkgs.callPackage ./ocaml/shell.nix {};
         zig = pkgs.callPackage ./zig/shell.nix {};
         perl5 = pkgs.callPackage ./perl5/shell.nix {};
+        x86-64-assembly = pkgs.callPackage ./x86-64-assembly/shell.nix {};
       };
     };
 }
