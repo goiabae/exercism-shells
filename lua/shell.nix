@@ -1,9 +1,9 @@
 { pkgs ? import <nixpkgs> {} }:
 with pkgs; mkShell {
   packages = [
-    lua5_2
+    lua5_3
     sumneko-lua-language-server
     stylua
-    lua52Packages.busted
+    lua53Packages.busted
   ];
 }
