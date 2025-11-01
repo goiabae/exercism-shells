@@ -13,5 +13,7 @@ with pkgs; mkShell {
     gdb
   ];
 
+  buildInputs = [ boost tbb ];
+
   hardeningDisable = [ "fortify" ];
 }
